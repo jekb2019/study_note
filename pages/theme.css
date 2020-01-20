@@ -1,0 +1,25 @@
+#webTitle{
+  color: black;
+  text-decoration: none;
+}
+.contents{
+  color: blue;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#contentTableHolder{
+  width: 400px;
+  border: 1px solid powderblue;
+  margin:0 auto;
+  padding: 30px
+}
+#contentHolder{
+  width: 800px;
+  border: 1px solid powderblue;
+  margin: 20px auto;
+  padding: 30px
+}
+h1, #title{
+  text-align: center;
+}
