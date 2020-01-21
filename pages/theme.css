@@ -7,17 +7,22 @@
   list-style-type: none;
 }
 
+#contentTableHolder, #contentHolder{
+  height: 300px;
+
+}
+
 #contentTableHolder{
   width: 200px;
   border: 1px solid powderblue;
-  margin:0 auto;
-  padding: 30px;
   float: left;
+  padding: 20px
 }
 #contentHolder{
-  width: 1000px;
+  width: 963px;
   border: 1px solid powderblue;
-  float: right;
+  float:right;
+  padding: 20px
 }
 h1, #title{
   text-align: center;
