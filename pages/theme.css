@@ -8,16 +8,16 @@
 }
 
 #contentTableHolder{
-  width: 400px;
+  width: 200px;
   border: 1px solid powderblue;
   margin:0 auto;
-  padding: 30px
+  padding: 30px;
+  float: left;
 }
 #contentHolder{
-  width: 800px;
+  width: 1000px;
   border: 1px solid powderblue;
-  margin: 20px auto;
-  padding: 30px
+  float: right;
 }
 h1, #title{
   text-align: center;
