@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Git Study Note</title>
+    <link href="../theme.css" rel="stylesheet" type="text/css">
+    <style>
+      table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 400px
+      }
+      .note{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .command{
+        width: 100px
+      }
+      .explanation{
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a id="webTitle" href="../main/index.html">Developer's Study Note</a></h1>
+
+    <div id="contentTableHolder">
+      <h3>Contents</h3>
+      <div class="contents">
+        <ul class="contents">
+          <li><a class="contents" href="../java/javaIndex.html">Java</a></li>
+          <li><a class="contents" href="../html_css/html_cssIndex.html">HTML & CSS</a></li>
+          <li><a class="contents" href="../git/gitIndex.html">Git</a>
+            <ul>
+              <li><a class="section" href="basic_linux_commands.html">Basic linux commands for GitBash</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contentHolder">
+      <h2 id="title">Git</h2>
+      <hr>
+      <h2>Basic Linux Commands for GitBash</h2>
+      <br>
+      <div class="note">
+        <h4>Showing directory information</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$pwd</td>
+            <td class="explanation">Print current directory</td>
+          </tr>
+          <tr>
+            <td class="command">$ls</td>
+            <td class="explanation">Show files and directories in the current directory.</td>
+          </tr>
+          <tr>
+            <td class="command">$ls -l</td>
+            <td class="explanation">Show files and directories in the current directory with additional information.</td>
+          </tr>
+          <tr>
+            <td class="command">$ls -a</td>
+            <td class="explanation">Show files and directories in the current directory including hidden files.</td>
+          </tr>
+          <tr>
+            <td class="command">$ls -r</td>
+            <td class="explanation">Show files and directories in the current directory. Reverse sort.</td>
+          </tr>
+          <tr>
+            <td class="command">$ls -t</td>
+            <td class="explanation">Show files and directories in the current directory. Sort by time.</td>
+          </tr>
+        </table>
+
+        <h4>Changing directories</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$cd</td>
+            <td class="explanation">Move to parent directory.</td>
+          </tr>
+          <tr>
+            <td class="command">$cd ~</td>
+            <td class="explanation">Move to home directory.</td>
+          </tr>
+          <tr>
+            <td class="command">$cd folderName</td>
+            <td class="explanation">Move to the directory called "folderName" that is in the current directory.</td>
+          </tr>
+          <tr>
+            <td class="command">$cd parentFolder/childFolder/grandChildFolder</td>
+            <td class="explanation">Move to the path "parentFolder/childFolder/grandChildFolder."</td>
+          </tr>
+        </table>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>

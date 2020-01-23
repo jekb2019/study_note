@@ -14,16 +14,22 @@
 
 #contentTableHolder{
   width: 200px;
+  height: inherit;
   border: 1px solid powderblue;
   float: left;
   padding: 20px
 }
 #contentHolder{
   width: 963px;
+  height: inherit;
   border: 1px solid powderblue;
   float:right;
   padding: 20px
+
 }
-h1, #title{
+h1, h2, h3, #title{
   text-align: center;
+}
+.section{
+    color: brown;
 }
