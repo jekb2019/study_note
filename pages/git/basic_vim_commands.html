@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Git Study Note</title>
+    <link href="../theme.css" rel="stylesheet" type="text/css">
+    <link href="gitContentTheme.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="title">
+      <h1><a id="webTitle" href="../main/index.html">Developer's Study Note</a></h1>
+    </div>
+    <div id="contentTableHolder">
+      <h3>Contents</h3>
+      <div class="contents">
+        <ul class="contents">
+          <li><a class="contents" href="../java/javaIndex.html">Java</a></li>
+          <li><a class="contents" href="../html_css/html_cssIndex.html">HTML & CSS</a></li>
+          <li><a class="contents" href="../git/gitIndex.html">Git</a>
+            <ul>
+              <li><a class="section" href="basic_linux_commands.html">Basic linux commands for GitBash</a></li>
+              <li><a class="section" href="basic_vim_commands.html">Basic vim commands</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contentHolder">
+      <h2 id="title">Git</h2>
+      <hr>
+      <h2>Basic Vim Commands</h2>
+      <br>
+      <div class="note">
+        <h4>Set default text editor as vim</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$git config --global core.editor "vim"</td>
+            <td class="explanation">Set default text editor as vim for Gitbash.</td>
+          </tr>
+        </table>
+        <h4>Create text file using vim editor</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$vim test.txt</td>
+            <td class="explanation">Make "text.txt" and open vim editor.</td>
+          </tr>
+        </table>
+        <h4>Commands when vim editor is open</h4>
+        <table class="note">
+          <tr>
+            <td class="command">i or a</td>
+            <td class="explanation">Just press "i" or "a" to change to insert mode. This mode is used to edit the text file.</td>
+          </tr>
+          <tr>
+            <td class="command">Esc</td>
+            <td class="explanation">Just press Esc to ex mode. This mode is used to save the text file after finishing editing.</td>
+          </tr>
+          <tr>
+            <td class="command">:wq</td>
+            <td class="explanation">Save text. By pressing ":", the command text area will be enabled. "w" is for saving the text file. "q" is for exiting out of the vim editor. After ":wq", press Enter.</td>
+          </tr>
+          <tr>
+            <td class="command">:w</td>
+            <td class="explanation">Save text file.</td>
+          </tr>
+          <tr>
+            <td class="command">:q</td>
+            <td class="explanation">Exit out of vim editor.</td>
+          </tr>
+          <tr>
+            <td class="command">:q!</td>
+            <td class="explanation">Exit out of vim editor without saving.</td>
+          </tr>
+
+        </table>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>

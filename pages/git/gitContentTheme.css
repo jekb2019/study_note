@@ -1,0 +1,18 @@
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+}
+.note{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.command{
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 10%;
+}
+.explanation{
+  width: 80%;
+}
