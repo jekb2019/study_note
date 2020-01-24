@@ -24,8 +24,9 @@
     </style>
   </head>
   <body>
-    <h1><a id="webTitle" href="../main/index.html">Developer's Study Note</a></h1>
-
+    <div id="title">
+      <h1><a id="webTitle" href="../main/index.html">Developer's Study Note</a></h1>
+    </div>
     <div id="contentTableHolder">
       <h3>Contents</h3>
       <div class="contents">
@@ -92,6 +93,22 @@
           <tr>
             <td class="command">$cd parentFolder/childFolder/grandChildFolder</td>
             <td class="explanation">Move to the path "parentFolder/childFolder/grandChildFolder."</td>
+          </tr>
+        </table>
+
+        <h4>Creating directories</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$mkdir folderName</td>
+            <td class="explanation">Create "folderName" directory.</td>
+          </tr>
+        </table>
+
+        <h4>Removing directories</h4>
+        <table class="note">
+          <tr>
+            <td class="command">$rm -r folderName</td>
+            <td class="explanation">Delete "folderName" directory including its children directories and files.</td>
           </tr>
         </table>
       </div>
